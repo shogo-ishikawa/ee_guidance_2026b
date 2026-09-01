@@ -1,8 +1,12 @@
 ---
-title: false
+title: "2026年度後期 履修ガイダンス｜電気電子工学科"
 pagetitle: "2026年度後期 履修ガイダンス｜電気電子工学科"
 toc: false
 ---
+
+<style>
+.quarto-title-block { display: none; }
+</style>
 
 <header class="guidance-hero">
   <p class="eyebrow">2026年度・電気電子工学科1年生用</p>
