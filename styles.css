@@ -29,8 +29,9 @@ a {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid var(--ee-amber);
-  outline-offset: 3px;
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px var(--ee-navy);
 }
 
 .navbar {
