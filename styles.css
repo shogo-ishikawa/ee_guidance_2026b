@@ -253,7 +253,7 @@ h2 {
 
 .action-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.9rem;
   margin: 1.25rem 0 2rem;
 }
@@ -421,6 +421,65 @@ td {
   font-weight: 700;
 }
 
+.share-panel {
+  max-width: 50rem;
+  margin: 1.2rem auto 2rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--ee-line);
+  border-radius: 1.2rem;
+  background: #fff;
+  box-shadow: 0 12px 30px rgb(31 45 56 / 8%);
+  text-align: center;
+}
+
+.share-kicker {
+  margin: 0 0 0.4rem;
+  color: var(--ee-blue);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.share-lead {
+  margin: 0 auto 0.7rem;
+  color: var(--ee-muted);
+  font-size: 1.08rem;
+}
+
+.qr-link {
+  display: inline-block;
+  margin: 0.8rem auto 1rem;
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+  background: #fff;
+}
+
+.guidance-qr {
+  display: block;
+  width: min(78vw, 460px);
+  height: auto;
+}
+
+.share-url-label {
+  margin: 0.4rem 0 0.15rem;
+  color: var(--ee-muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.share-url {
+  margin: 0;
+  font-size: clamp(1rem, 2.8vw, 1.45rem);
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.share-note {
+  margin: 1rem 0 0;
+  color: var(--ee-muted);
+}
+
 .source-note {
   margin: 1.7rem 0;
   padding: 0.9rem 1.1rem;
@@ -529,5 +588,24 @@ td {
   .guidance-hero p,
   .guidance-hero span {
     color: #000;
+  }
+
+  .share-panel {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .guidance-qr {
+    width: 100mm;
+    max-width: 100%;
+  }
+
+  .share-url a {
+    color: #000;
+    text-decoration: none;
   }
 }

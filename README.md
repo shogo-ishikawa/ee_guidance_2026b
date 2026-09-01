@@ -6,8 +6,9 @@
 
 - `index.qmd`：重要日程と、最初に行うこと
 - `guidance.qmd`：9月14日の教科ガイダンス、9月16日の履修相談
-- `registration.qmd`：履修登録、時間割作成、定員超過時の対応
+- `registration.qmd`：履修登録、時間割作成、履修登録シミュレータ、定員超過時の対応
 - `textbooks.qmd`：教科書販売場所、期間、取扱教科書
+- `access.qmd`：ガイダンスサイトのURLとQRコード
 - `_variables.yml`：Boxリンク、更新日などの頻繁に変わる情報
 
 元のPowerPoint、Word、PDFは公開リポジトリに保存していません。必要な内容だけをHTML向けに再構成しています。

@@ -64,12 +64,13 @@ toc: false
 
 1. ポータルで前期（1Q・2Q）の成績を確認する
 2. Boxのクラス分け表と学部時間割表を開く
-3. 必修科目から時間割作成シートへ記入する
+3. 時間割作成シートまたは履修登録シミュレータで、必修科目から時間割案を作る
 4. 選択科目を追加し、単位数・重複・キャンパス移動を確認する
 5. **9月16日（水）までに、3Q・4Q・後期科目をすべて登録する**
 
 <div class="action-grid">
 <article><a class="action-card" href="https://portal.cit.nihon-u.ac.jp/" target="_blank" rel="noopener"><span class="action-label">成績・履修登録</span><strong>ポータルシステム</strong><span>大学のログイン画面を開く →</span></a></article>
+<article><a class="action-card" href="https://shogo-ishikawa.github.io/course-registration-simulator/" target="_blank" rel="noopener"><span class="action-label">時間割案の作成</span><strong>履修登録シミュレータ</strong><span>単位数・重複・キャンパス移動を確認する →</span></a></article>
 <article><a class="action-card" href="https://sites.google.com/view/mimomi-guidance/home" target="_blank" rel="noopener"><span class="action-label">時間割・配布資料</span><strong>実籾ガイダンス資料</strong><span>大学の資料掲載サイトを開く →</span></a></article>
 <article><a class="action-card" href="registration.html"><span class="action-label">時間割を作る前に</span><strong>履修ルール</strong><span>20単位上限・ペア時限・移動ルール →</span></a></article>
 </div>
