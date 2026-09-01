@@ -22,6 +22,8 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 
 [実籾ガイダンス資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
+[学生向けガイダンス資料掲載サイトを開く](https://sites.google.com/view/nucit-guidance/){.btn .btn-outline-secondary target="_blank" rel="noopener"}
+
 ## 3．履修単位数を確認する
 
 後期に履修登録できる上限は**20単位**です。前期と後期の上限は独立して数えます。

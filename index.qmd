@@ -18,7 +18,7 @@ toc: false
 **最初に自分の教室を確認してください。** 学生番号 **26B21001–26B21088は206教室**、**26B21089–26B21176は207教室**です。
 :::
 
-## まず確認する5つ
+## まず確認する日程
 
 <div class="deadline-grid">
   <article class="deadline-card deadline-primary">
