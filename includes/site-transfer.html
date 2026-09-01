@@ -1,0 +1,77 @@
+<script>
+(() => {
+  const siteUrl = "https://shogo-ishikawa.github.io/ee_guidance_2026b/";
+  const shareData = {
+    title: "2026年度後期 履修ガイダンス｜電気電子工学科",
+    text: "電気電子工学科1年生用の履修ガイダンスサイトです。",
+    url: siteUrl
+  };
+
+  async function copySiteUrl() {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(siteUrl);
+      return;
+    }
+
+    const area = document.createElement("textarea");
+    area.value = siteUrl;
+    area.readOnly = true;
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.append(area);
+    area.select();
+
+    try {
+      if (!document.execCommand("copy")) {
+        throw new Error("copy command failed");
+      }
+    } finally {
+      area.remove();
+    }
+  }
+
+  document.querySelectorAll("[data-site-transfer]").forEach((container) => {
+    const shareButton = container.querySelector("[data-share-site]");
+    const copyButton = container.querySelector("[data-copy-site-url]");
+    const status = container.querySelector("[data-transfer-status]");
+
+    if (!shareButton || !copyButton || !status) {
+      return;
+    }
+
+    const reportCopyResult = async (fallbackFromShare = false) => {
+      try {
+        await copySiteUrl();
+        status.textContent = fallbackFromShare
+          ? "共有機能を利用できないためURLをコピーしました。自分宛メールなどに貼り付けてください。"
+          : "URLをコピーしました。自分宛メールやチャットに貼り付けてください。";
+      } catch (error) {
+        status.textContent = "コピーできませんでした。ブラウザのアドレス欄からURLをコピーしてください。";
+      }
+    };
+
+    shareButton.addEventListener("click", async () => {
+      status.textContent = "";
+
+      if (!navigator.share) {
+        await reportCopyResult(true);
+        return;
+      }
+
+      try {
+        await navigator.share(shareData);
+        status.textContent = "共有操作が完了しました。PC側でリンクを開いてください。";
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          await reportCopyResult(true);
+        }
+      }
+    });
+
+    copyButton.addEventListener("click", async () => {
+      status.textContent = "";
+      await reportCopyResult(false);
+    });
+  });
+})();
+</script>

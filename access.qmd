@@ -11,6 +11,17 @@ toc: false
 <p class="share-url-label">サイトURL</p>
 <p class="share-url"><a href="https://shogo-ishikawa.github.io/ee_guidance_2026b/">https://shogo-ishikawa.github.io/ee_guidance_2026b/</a></p>
 <p class="share-note">QRコードを読み取れない場合は、上のURLをブラウザへ入力してください。</p>
+
+<section class="pc-transfer" data-site-transfer aria-labelledby="pc-transfer-title">
+<h2 id="pc-transfer-title">PCで開く</h2>
+<p>QRコードを読み取ってサイトを開くと、スマートフォンの画面上部にも同じ操作が表示されます。「PCへ送る・共有する」を押し、端末の共有画面から送信方法を選んでください。</p>
+<div class="transfer-actions">
+<button class="transfer-button transfer-primary" type="button" data-share-site>PCへ送る・共有する</button>
+<button class="transfer-button transfer-secondary" type="button" data-copy-site-url>URLをコピー</button>
+</div>
+<p class="transfer-help"><strong>送信方法の例：</strong>Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メール</p>
+<p class="transfer-status" data-transfer-status role="status" aria-live="polite"></p>
+</section>
 </section>
 
 [QRコード画像だけを開く](assets/site-qr.svg){.image-open-link target="_blank" rel="noopener"}
