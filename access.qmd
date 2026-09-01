@@ -1,0 +1,16 @@
+---
+title: "履修ガイダンスサイトをスマートフォンで開く"
+description: "2026年度後期・電気電子工学科1年生向け履修ガイダンスサイトのURLとQRコード"
+toc: false
+---
+
+<section class="share-panel" aria-label="履修ガイダンスサイトのURLとQRコード">
+<p class="share-kicker">2026年度後期・電気電子工学科1年生用</p>
+<p class="share-lead">スマートフォンのカメラでQRコードを読み取ってください。</p>
+<a class="qr-link" href="https://shogo-ishikawa.github.io/ee_guidance_2026b/" target="_blank" rel="noopener" aria-label="履修ガイダンスサイトを開く"><img class="guidance-qr" src="assets/site-qr.svg" alt="2026年度後期履修ガイダンスサイトのURLを示すQRコード"></a>
+<p class="share-url-label">サイトURL</p>
+<p class="share-url"><a href="https://shogo-ishikawa.github.io/ee_guidance_2026b/">https://shogo-ishikawa.github.io/ee_guidance_2026b/</a></p>
+<p class="share-note">QRコードを読み取れない場合は、上のURLをブラウザへ入力してください。</p>
+</section>
+
+[QRコード画像だけを開く](assets/site-qr.svg){.image-open-link target="_blank" rel="noopener"}

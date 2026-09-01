@@ -24,6 +24,8 @@ website:
         href: registration.qmd
       - text: "教科書"
         href: textbooks.qmd
+      - text: "URL・QRコード"
+        href: access.qmd
   announcement:
     icon: info-circle
     dismissable: true
