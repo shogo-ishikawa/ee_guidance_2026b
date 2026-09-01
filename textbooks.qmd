@@ -24,9 +24,9 @@ description: "実籾校舎の販売期間、販売場所、取扱教科書"
 | 学生談話室 | 食堂棟Ⅰ 1階 |
 | 自習室 | 2号館1階 102室 |
 
-![実籾キャンパスの教科書販売場所。黒い星が食堂棟Ⅰと2号館を示している。](assets/mimomi-campus-map.png){.campus-map fig-alt="実籾キャンパス案内図。黒い星で、南側の食堂棟Ⅰと中央の教室棟Ⅰ（2号館）が示されている。"}
+![実籾キャンパスの教科書販売場所。黒い星が食堂棟Ⅰと2号館を示している。](assets/mimomi-campus-map-2026.png){.campus-map fig-alt="実籾キャンパス案内図。黒い星で、南側の食堂棟Ⅰと中央の教室棟Ⅰ（2号館）が示されている。"}
 
-[キャンパス案内図を大きく開く](assets/mimomi-campus-map.png){.image-open-link target="_blank" rel="noopener"}
+[キャンパス案内図を大きく開く](assets/mimomi-campus-map-2026.png){.image-open-link target="_blank" rel="noopener"}
 
 <div class="map-legend">
 <div><strong>★ 食堂棟Ⅰ 1階</strong> 学生談話室</div>

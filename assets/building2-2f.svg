@@ -17,11 +17,11 @@
 
     <rect x="664" y="112" width="235" height="144" rx="14" fill="#146a9d" stroke="#0e4e76" stroke-width="5"/>
     <text x="781.5" y="171" fill="#ffffff">206教室</text>
-    <text x="781.5" y="211" fill="#ffffff" font-size="22">26B21001–21088</text>
+    <text x="781.5" y="211" fill="#ffffff" font-size="18">26B21001–26B21088</text>
 
     <rect x="912" y="112" width="233" height="144" rx="14" fill="#f2b84b" stroke="#8a5a00" stroke-width="5"/>
     <text x="1028.5" y="171" fill="#2b220f">207教室</text>
-    <text x="1028.5" y="211" fill="#2b220f" font-size="22">26B21089–21176</text>
+    <text x="1028.5" y="211" fill="#2b220f" font-size="20">26B21089以降</text>
   </g>
 
   <rect x="55" y="282" width="1090" height="66" rx="18" fill="#dbe5ec"/>
