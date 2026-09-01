@@ -1,0 +1,108 @@
+---
+title: false
+pagetitle: "2026年度後期 履修ガイダンス｜電気電子工学科"
+toc: false
+---
+
+<header class="guidance-hero">
+  <p class="eyebrow">2026年度・電気電子工学科1年生用</p>
+  <h1>3Q・4Q 履修ガイダンス</h1>
+  <p class="hero-lead">日程、教室、履修登録のルール、教科書販売を、学生が行動する順にまとめています。</p>
+  <div class="hero-meta">
+    <span>教科ガイダンス：9月14日（月）10:00–12:00</span>
+    <span>実籾キャンパス 2号館</span>
+  </div>
+</header>
+
+::: {.critical-strip}
+**最初に自分の教室を確認してください。** 学生番号 **26B21001–26B21088は206教室**、**26B21089–26B21176は207教室**です。
+:::
+
+## まず確認する5つ
+
+<div class="deadline-grid">
+  <article class="deadline-card deadline-primary">
+    <p class="deadline-date">9月14日（月）</p>
+    <h3>教科ガイダンス</h3>
+    <p><strong>10:00–12:00</strong><br>実籾キャンパス2号館<br>206・207教室</p>
+    <a href="guidance.html#教科ガイダンス" class="card-link">教室を確認する →</a>
+  </article>
+  <article class="deadline-card">
+    <p class="deadline-date">9月16日（水）</p>
+    <h3>履修登録締切・履修相談</h3>
+    <p>履修相談は<strong>13:00–14:30</strong><br>最終受付14:00・206教室</p>
+    <a href="guidance.html#履修相談" class="card-link">相談方法を見る →</a>
+  </article>
+  <article class="deadline-card deadline-alert">
+    <p class="deadline-date">9月18日（金）</p>
+    <h3>定員超過を確認</h3>
+    <p><strong class="time-emphasis">18:00予定</strong><br>ポータルの「お知らせ」</p>
+    <a href="registration.html#定員超過時の流れ" class="card-link">対応を確認する →</a>
+  </article>
+  <article class="deadline-card">
+    <p class="deadline-date">9月24日（木）–30日（水）</p>
+    <h3>履修修正・教科書販売</h3>
+    <p>教科書販売は平日のみ<br><strong>8:30–16:30</strong></p>
+    <a href="textbooks.html" class="card-link">販売場所を見る →</a>
+  </article>
+</div>
+
+## クラス分け表・最新資料 {#box-file}
+
+<section class="box-panel" aria-labelledby="box-heading">
+  <div>
+    <p class="panel-kicker">Boxを正本として案内</p>
+    <h3 id="box-heading">クラス分け表</h3>
+    <p>最新版はBox上のファイルで確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。</p>
+    <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
+  </div>
+  <a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
+</section>
+
+## ガイダンス当日から登録まで
+
+1. ポータルで前期（1Q・2Q）の成績を確認する
+2. Boxのクラス分け表と学部時間割表を開く
+3. 必修科目から時間割作成シートへ記入する
+4. 選択科目を追加し、単位数・重複・キャンパス移動を確認する
+5. **9月16日（水）までに、3Q・4Q・後期科目をすべて登録する**
+
+<div class="action-grid">
+  <a class="action-card" href="https://portal.cit.nihon-u.ac.jp/" target="_blank" rel="noopener">
+    <span class="action-label">成績・履修登録</span>
+    <strong>ポータルシステム</strong>
+    <span>大学のログイン画面を開く →</span>
+  </a>
+  <a class="action-card" href="https://sites.google.com/view/mimomi-guidance/home" target="_blank" rel="noopener">
+    <span class="action-label">時間割・配布資料</span>
+    <strong>実籾ガイダンス資料</strong>
+    <span>大学の資料掲載サイトを開く →</span>
+  </a>
+  <a class="action-card" href="registration.html">
+    <span class="action-label">時間割を作る前に</span>
+    <strong>履修ルール</strong>
+    <span>20単位上限・ペア時限・移動ルール →</span>
+  </a>
+</div>
+
+## 重要日程一覧
+
+| 日付 | 時刻 | 行うこと |
+|---|---:|---|
+| 9月10日（木）–16日（水） | — | 3Q・4Q・後期科目をポータルから履修登録 |
+| **9月14日（月）** | **10:00–12:00** | 電気電子工学科 教科ガイダンス |
+| **9月16日（水）** | **13:00–14:30** | 履修相談（最終受付14:00） |
+| **9月18日（金）** | **18:00予定** | 教養基盤科目（選択）の定員超過をポータルで確認 |
+| 9月24日（木）–30日（水） | — | やむを得ない場合の履修修正 |
+| 9月24日（木）–30日（水） | 8:30–16:30 | 実籾校舎で教科書販売（土日を除く） |
+
+::: {.source-note}
+このサイトはガイダンス配布資料を電気電子工学科1年生向けに再構成したものです。最終更新：{{< var last_updated >}}
+:::
+
+## 問い合わせ
+
+履修ガイダンスに関する問い合わせは、電気電子工学科の石川までお願いします。
+
+**石川将吾**  
+[ishikawa.shogo@nihon-u.ac.jp](mailto:ishikawa.shogo@nihon-u.ac.jp)

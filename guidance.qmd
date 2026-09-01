@@ -1,0 +1,70 @@
+---
+title: "教科ガイダンス・履修相談"
+description: "電気電子工学科の開催日時、学生番号別教室、履修相談会場"
+---
+
+## 教科ガイダンス
+
+<div class="event-summary">
+  <div><span>日時</span><strong>9月14日（月）10:00–12:00</strong></div>
+  <div><span>場所</span><strong>実籾キャンパス 2号館2階</strong></div>
+</div>
+
+### 学生番号別の教室
+
+| 学生番号 | 教室 |
+|---|---|
+| **26B21001–26B21088** | **2号館2階 206教室** |
+| **26B21089–26B21176** | **2号館2階 207教室** |
+
+::: {.callout-important title="教室を間違えないようにしてください"}
+学生番号の末尾だけでなく、学生番号全体がどちらの範囲に入るかを確認してください。206・207教室はいずれも2号館2階の右側です。
+:::
+
+![2号館2階の教室配置。206教室と207教室を強調した概略図。](assets/building2-2f.svg){.floor-map fig-alt="2号館2階の概略図。上側の右寄りに206教室、その右隣に207教室がある。"}
+
+### 当日の目的
+
+- 前期（1Q・2Q）の成績を確認する
+- 3Q・4Qの時間割作成シートを完成させる
+- 帰宅後、ポータルから履修登録する
+
+::: {.callout-note title="ポータルのパスワードについて"}
+この公開サイトには初期パスワードの規則を掲載しません。ログインできない場合は、大学の正規の案内または窓口で確認してください。
+:::
+
+## クラス分け表
+
+<section class="box-panel compact" aria-labelledby="box-heading-guidance">
+  <div>
+    <p class="panel-kicker">Box上のファイルが最新版です</p>
+    <h3 id="box-heading-guidance">科目ごとのクラス分け</h3>
+    <p>ガイダンス教室の割り当てとは別に、授業科目ごとのクラス分けを確認してください。</p>
+    <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
+  </div>
+  <a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
+</section>
+
+Boxのファイルが更新された場合も、同じボタンから最新版を確認できます。
+
+## 履修相談
+
+<div class="event-summary">
+  <div><span>日時</span><strong>9月16日（水）13:00–14:30</strong></div>
+  <div><span>最終受付</span><strong>14:00</strong></div>
+  <div><span>場所</span><strong>実籾キャンパス 2号館2階 206教室</strong></div>
+</div>
+
+::: {.callout-warning title="ノートパソコンを持参してください"}
+履修登録はWeb上で行います。相談したい内容と、作成途中の時間割も準備しておくと確認がスムーズです。
+:::
+
+### 相談前に用意するもの
+
+- ノートパソコン
+- 学生証
+- 時間割作成シート
+- 履修したい科目と、迷っている点のメモ
+- ポータルへログインできる状態
+
+[履修登録のルールを確認する](registration.qmd){.btn .btn-primary}

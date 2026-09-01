@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: ja
+
+website:
+  title: "2026年度後期 履修ガイダンス"
+  site-url: "https://shogo-ishikawa.github.io/ee_guidance_2026b/"
+  description: "日本大学生産工学部 電気電子工学科1年生向け 2026年度3Q・4Q履修ガイダンス"
+  search: false
+  navbar:
+    title: "電気電子工学科｜後期履修"
+    background: "#123B5D"
+    foreground: "#FFFFFF"
+    pinned: true
+    collapse: true
+    left:
+      - text: "まず確認"
+        href: index.qmd
+      - text: "ガイダンス・相談"
+        href: guidance.qmd
+      - text: "履修登録"
+        href: registration.qmd
+      - text: "教科書"
+        href: textbooks.qmd
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "掲載内容とポータル・シラバス・大学からの通知に相違がある場合は、大学の最新情報を優先してください。"
+    type: light
+    position: below-navbar
+  page-footer:
+    border: true
+    left: "2026年度 電気電子工学科1年生用｜ガイダンス期間限定公開"
+    right: "担当：[石川将吾](mailto:ishikawa.shogo@nihon-u.ac.jp)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "このページ"
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: includes/head.html
+    grid:
+      sidebar-width: 220px
+      body-width: 900px
+      margin-width: 220px
+      gutter-width: 1.5rem
+
+execute:
+  freeze: auto
