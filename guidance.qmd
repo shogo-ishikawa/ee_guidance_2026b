@@ -36,13 +36,13 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 ## クラス分け表
 
 <section class="box-panel compact" aria-labelledby="box-heading-guidance">
-  <div>
-    <p class="panel-kicker">Box上のファイルが最新版です</p>
-    <h3 id="box-heading-guidance">科目ごとのクラス分け</h3>
-    <p>ガイダンス教室の割り当てとは別に、授業科目ごとのクラス分けを確認してください。</p>
-    <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
-  </div>
-  <a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
+<div>
+<p class="panel-kicker">Box上のファイルが最新版です</p>
+<h3 id="box-heading-guidance">科目ごとのクラス分け</h3>
+<p>ガイダンス教室の割り当てとは別に、授業科目ごとのクラス分けを確認してください。</p>
+<p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
+</div>
+<a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
 </section>
 
 Boxのファイルが更新された場合も、同じボタンから最新版を確認できます。
@@ -61,10 +61,15 @@ Boxのファイルが更新された場合も、同じボタンから最新版�
 
 ### 相談前に用意するもの
 
+**必須**
+
 - ノートパソコン
+- ポータルへログインできる状態
+
+**あるとよいもの**
+
 - 学生証
 - 時間割作成シート
 - 履修したい科目と、迷っている点のメモ
-- ポータルへログインできる状態
 
 [履修登録のルールを確認する](registration.qmd){.btn .btn-primary}

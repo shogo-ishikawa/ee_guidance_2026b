@@ -272,6 +272,14 @@ h2 {
   transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
+.action-grid > article {
+  min-width: 0;
+}
+
+.action-grid > article .action-card {
+  height: 100%;
+}
+
 .action-card:hover {
   color: var(--ee-ink);
   transform: translateY(-2px);
@@ -337,7 +345,7 @@ h2 {
   margin: 0.75rem 0 2rem;
 }
 
-.map-legend span {
+.map-legend > div {
   padding: 0.8rem;
   border-radius: 0.65rem;
   background: var(--ee-amber-soft);
