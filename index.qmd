@@ -15,6 +15,17 @@ toc: false
   <div class="hero-meta"><span>教科ガイダンス：9月14日（月）10:00–12:00</span><span>実籾キャンパス 2号館</span></div>
 </header>
 
+<section class="pc-transfer pc-transfer-mobile" data-site-transfer aria-labelledby="mobile-transfer-title">
+<h2 id="mobile-transfer-title">PCでも開く</h2>
+<p>PCで時間割を作成する場合は、下のボタンからこのサイトをPCへ送ってください。</p>
+<div class="transfer-actions">
+<button class="transfer-button transfer-primary" type="button" data-share-site>PCへ送る・共有する</button>
+<button class="transfer-button transfer-secondary" type="button" data-copy-site-url>URLをコピー</button>
+</div>
+<p class="transfer-help">Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メールなどを利用できます。</p>
+<p class="transfer-status" data-transfer-status role="status" aria-live="polite"></p>
+</section>
+
 ::: {.critical-strip}
 **学生番号を確認し、指定された教室へ入室してください。** 学生番号 **26B21001–26B21088は206教室**、**26B21089以降は207教室**です。
 :::
