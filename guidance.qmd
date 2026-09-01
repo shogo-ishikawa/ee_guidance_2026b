@@ -23,6 +23,8 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 
 ![2号館2階の教室配置。206教室と207教室を強調した概略図。](assets/building2-2f.svg){.floor-map fig-alt="2号館2階の概略図。上側の右寄りに206教室、その右隣に207教室がある。"}
 
+[教室配置図を大きく開く](assets/building2-2f.svg){.image-open-link target="_blank" rel="noopener"}
+
 ### 当日の目的
 
 - 前期（1Q・2Q）の成績を確認する
@@ -42,7 +44,7 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 <p>ガイダンス教室の割り当てとは別に、授業科目ごとのクラス分けを確認してください。</p>
 <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
 </div>
-<a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
+<a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
 
 Boxのファイルが更新された場合も、同じボタンから最新版を確認できます。

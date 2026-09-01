@@ -57,7 +57,7 @@ toc: false
 <p>最新版はBox上のファイルで確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。</p>
 <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
 </div>
-<a class="box-button {{< var box_button_class >}}" href="{{< var box_file_url >}}" target="_blank" rel="noopener" aria-disabled="{{< var box_button_aria >}}">Boxでクラス分け表を開く</a>
+<a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
 
 ## ガイダンス当日から登録まで

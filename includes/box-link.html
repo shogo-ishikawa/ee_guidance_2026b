@@ -1,0 +1,20 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("[data-box-link]").forEach((link) => {
+    const href = link.getAttribute("href") || "";
+    const pending = href === "" || href.startsWith("#");
+
+    if (pending) {
+      link.removeAttribute("href");
+      link.removeAttribute("target");
+      link.setAttribute("aria-disabled", "true");
+      link.setAttribute("tabindex", "-1");
+      link.classList.add("is-disabled");
+    } else {
+      link.setAttribute("aria-disabled", "false");
+      link.removeAttribute("tabindex");
+      link.classList.remove("is-disabled");
+    }
+  });
+});
+</script>

@@ -20,8 +20,6 @@
 box_file_url: "Boxの共有URL"
 box_file_status: "掲載中"
 box_file_updated: "2026年9月○日 ○:○○"
-box_button_class: ""
-box_button_aria: "false"
 ```
 
 Box側では、同じファイルに「新しいバージョンをアップロード」して更新します。ファイルを削除して作り直さなければ、サイト側のURLを変更せずに最新版を案内できます。学籍番号などを含む場合は、Boxの共有範囲を学内利用者限定・閲覧のみとしてください。

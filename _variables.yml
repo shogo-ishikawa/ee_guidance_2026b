@@ -2,9 +2,7 @@ academic_year: "2026年度"
 site_scope: "電気電子工学科 1年生"
 last_updated: "2026年9月1日"
 
-# Boxにクラス分け表を掲載したら、以下の5項目を更新してください。
+# Boxにクラス分け表を掲載したら、以下の3項目を更新してください。
 box_file_url: "#box-file"
 box_file_status: "準備中"
 box_file_updated: "未掲載"
-box_button_class: "is-disabled"
-box_button_aria: "true"

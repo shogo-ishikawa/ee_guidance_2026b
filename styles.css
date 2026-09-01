@@ -389,10 +389,35 @@ td {
   border-left: 5px solid var(--ee-blue);
   border-radius: 0.6rem;
   background: var(--ee-surface);
+  position: relative;
+  padding-left: 4.25rem;
 }
 
 .process-list li strong {
   color: var(--ee-navy);
+}
+
+.process-list li::before {
+  position: absolute;
+  top: 0.85rem;
+  left: 1rem;
+  display: inline-flex;
+  width: 2.2rem;
+  height: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ee-blue);
+  content: counter(process);
+  counter-increment: process;
+  font-weight: 800;
+}
+
+.image-open-link {
+  display: inline-block;
+  margin-top: -0.3rem;
+  font-weight: 700;
 }
 
 .source-note {
