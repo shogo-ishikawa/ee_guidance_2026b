@@ -16,7 +16,7 @@ website:
     pinned: true
     collapse: true
     left:
-      - text: "まず確認"
+      - text: "ガイダンス概要"
         href: index.qmd
       - text: "ガイダンス・相談"
         href: guidance.qmd
@@ -33,7 +33,7 @@ website:
   page-footer:
     border: true
     left: "2026年度 電気電子工学科1年生用｜ガイダンス期間限定公開"
-    right: "担当：[石川将吾](mailto:ishikawa.shogo@nihon-u.ac.jp)"
+    right: "問い合わせ：各1年担任"
 
 format:
   html:
