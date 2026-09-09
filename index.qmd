@@ -64,10 +64,12 @@ toc: false
 
 ## 時間割表・クラス分け表・授業科目表 {#box-file}
 
+各資料の最新版は、以下のBoxリンクから確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。
+
 <section class="box-panel" aria-labelledby="box-heading">
 <div>
 <h3 id="box-heading">クラス分け表</h3>
-<p>最新版はBox上のファイルで確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。</p>
+<p>授業科目ごとのクラス分けを確認してください。</p>
 <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> リンク更新：{{< var box_file_updated >}}</p>
 </div>
 <a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>

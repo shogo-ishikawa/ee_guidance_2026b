@@ -37,9 +37,10 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 
 ## 時間割表・クラス分け表・授業科目表 {#クラス分け表}
 
+各資料の最新版は、以下のBoxリンクから確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。
+
 <section class="box-panel compact" aria-labelledby="box-heading-guidance">
 <div>
-<p class="panel-kicker">Box上のファイルが最新版です</p>
 <h3 id="box-heading-guidance">科目ごとのクラス分け</h3>
 <p>授業科目ごとのクラス分けを確認してください。</p>
 <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> リンク更新：{{< var box_file_updated >}}</p>
@@ -64,8 +65,6 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 </div>
 <a class="box-button" data-box-link href="{{< var course_list_url >}}" target="_blank" rel="noopener">Boxで授業科目表を開く</a>
 </section>
-
-Boxのファイルが更新された場合も、それぞれのボタンから最新版を確認できます。
 
 ::: {.callout-note title="詳しい履修規程・キャンパスガイド" collapse="true"}
 履修条件・成績評価・卒業要件の詳細は、2026年度キャンパスガイドで確認できます。
