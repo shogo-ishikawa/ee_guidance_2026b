@@ -373,7 +373,8 @@ table {
   font-size: 0.96rem;
 }
 
-thead th {
+thead th,
+.table > thead > tr > th {
   color: #fff;
   background: var(--ee-navy) !important;
   vertical-align: middle;
