@@ -21,7 +21,7 @@
 
     <rect x="912" y="112" width="233" height="144" rx="14" fill="#f2b84b" stroke="#8a5a00" stroke-width="5"/>
     <text x="1028.5" y="171" fill="#2b220f">207教室</text>
-    <text x="1028.5" y="211" fill="#2b220f" font-size="20">26B21089以降</text>
+    <text x="1028.5" y="211" fill="#2b220f" font-size="18">26B21089–26B21176</text>
   </g>
 
   <rect x="55" y="282" width="1090" height="66" rx="18" fill="#dbe5ec"/>

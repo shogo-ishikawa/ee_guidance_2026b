@@ -15,6 +15,13 @@ toc: false
   <div class="hero-meta"><span>教科ガイダンス：9月14日（月）10:00–12:00</span><span>実籾キャンパス 2号館</span></div>
 </header>
 
+::: {.critical-strip}
+学生番号を確認し、指定された教室へ入室してください。
+
+- **206教室**：学生番号 26B21001 - 26B21088
+- **207教室**：学生番号 26B21089 - 26B21176
+:::
+
 <section class="pc-transfer pc-transfer-mobile" data-site-transfer aria-labelledby="mobile-transfer-title">
 <h2 id="mobile-transfer-title">PCでも開く</h2>
 <p>PCで時間割を作成する場合は、下のボタンからこのサイトをPCへ送ってください。</p>
@@ -25,13 +32,6 @@ toc: false
 <p class="transfer-help">Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メールなどを利用できます。</p>
 <p class="transfer-status" data-transfer-status role="status" aria-live="polite"></p>
 </section>
-
-::: {.critical-strip}
-学生番号を確認し、指定された教室へ入室してください。
-
-- **206教室**：学生番号 26B21001 - 26B21088
-- **207教室**：学生番号 26B21089以降。
-:::
 
 ## 重要な日程
 
@@ -91,6 +91,13 @@ toc: false
 <a class="box-button" data-box-link href="{{< var course_list_url >}}" target="_blank" rel="noopener">Boxで授業科目表を開く</a>
 </section>
 
+::: {.callout-note title="詳しい履修規程・キャンパスガイド" collapse="true"}
+履修条件・成績評価・卒業要件の詳細は、2026年度キャンパスガイドで確認できます。
+
+- <a href="{{< var campus_guide_public_url >}}" target="_blank" rel="noopener">大学公式デジタル版を開く</a>
+- <a href="{{< var campus_guide_url >}}" target="_blank" rel="noopener">PDF版を大学Boxで開く（学内ログイン）</a>
+:::
+
 ## ガイダンス当日から登録まで
 
 1. ポータルで前期（1Q・2Q）の成績を確認する
@@ -98,6 +105,7 @@ toc: false
 3. 時間割作成シートまたは履修登録シミュレータで、必修科目から時間割案を作る
 4. 選択科目を追加し、単位数・重複・キャンパス移動を確認する
 5. **9月16日（水）までに、3Q・4Q・後期科目をすべて登録する**
+6. ポータルの[「My時間割」で登録結果を確認する](registration.qmd#registration-check)
 
 <div class="action-grid">
 <article><a class="action-card" href="https://portal.cit.nihon-u.ac.jp/" target="_blank" rel="noopener"><span class="action-label">成績・履修登録</span><strong>ポータルシステム</strong><span>大学のログイン画面を開く →</span></a></article>
@@ -106,7 +114,7 @@ toc: false
 <article><a class="action-card" href="registration.html"><span class="action-label">時間割を作る前に</span><strong>履修ルール</strong><span>20単位上限・ペア時限・移動ルール →</span></a></article>
 </div>
 
-## 重要日程一覧
+::: {.callout-note title="登録期間・修正期間を含む日程一覧" collapse="true"}
 
 | 日付 | 時刻 | 行うこと |
 |---|---:|---|
@@ -116,6 +124,8 @@ toc: false
 | **9月18日（金）** | **18:00予定** | 教養基盤科目（選択）の定員超過をポータルで確認 |
 | 9月24日（木）–30日（水） | — | やむを得ない場合の履修修正 |
 | 9月24日（木）–30日（水） | 8:30–16:30 | 実籾校舎で教科書販売（土日を除く） |
+
+:::
 
 ::: {.source-note}
 このサイトはガイダンス配布資料を電気電子工学科1年生向けに再構成したものです。最終更新：{{< var last_updated >}}
