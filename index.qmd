@@ -27,7 +27,10 @@ toc: false
 </section>
 
 ::: {.critical-strip}
-**学生番号を確認し、指定された教室へ入室してください。** 学生番号 **26B21001–26B21088は206教室**、**26B21089以降は207教室**です。
+学生番号を確認し、指定された教室へ入室してください。
+
+- **206教室**：学生番号 26B21001 - 26B21088
+- **207教室**：学生番号 26B21089以降。
 :::
 
 ## 重要な日程
@@ -63,10 +66,9 @@ toc: false
 
 <section class="box-panel" aria-labelledby="box-heading">
 <div>
-<p class="panel-kicker">Boxを正本として案内</p>
 <h3 id="box-heading">クラス分け表</h3>
 <p>最新版はBox上のファイルで確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。</p>
-<p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
+<p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> リンク更新：{{< var box_file_updated >}}</p>
 </div>
 <a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
