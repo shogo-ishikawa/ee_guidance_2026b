@@ -62,7 +62,7 @@ toc: false
   </article>
 </div>
 
-## クラス分け表・最新資料 {#box-file}
+## 時間割表・クラス分け表・授業科目表 {#box-file}
 
 <section class="box-panel" aria-labelledby="box-heading">
 <div>
@@ -73,10 +73,28 @@ toc: false
 <a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
 
+<section class="box-panel" aria-labelledby="timetable-heading-home">
+<div>
+<h3 id="timetable-heading-home">電気電子工学科 後期時間割表</h3>
+<p>専門科目と教養基盤科目の両方を確認してください。</p>
+</div>
+<div class="box-links">
+<a class="box-button" data-box-link href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目を開く</a>
+<a class="box-button" data-box-link href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目を開く</a>
+</div>
+</section>
+
+<section class="box-panel" aria-labelledby="course-list-heading-home">
+<div>
+<h3 id="course-list-heading-home">授業科目表</h3>
+</div>
+<a class="box-button" data-box-link href="{{< var course_list_url >}}" target="_blank" rel="noopener">Boxで授業科目表を開く</a>
+</section>
+
 ## ガイダンス当日から登録まで
 
 1. ポータルで前期（1Q・2Q）の成績を確認する
-2. Boxのクラス分け表と学部時間割表を開く
+2. Boxの[クラス分け表・後期時間割表・授業科目表](#box-file)を開く
 3. 時間割作成シートまたは履修登録シミュレータで、必修科目から時間割案を作る
 4. 選択科目を追加し、単位数・重複・キャンパス移動を確認する
 5. **9月16日（水）までに、3Q・4Q・後期科目をすべて登録する**
