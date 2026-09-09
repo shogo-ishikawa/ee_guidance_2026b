@@ -16,11 +16,12 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 ## 2．時間割作成に必要な資料を揃える
 
 1. 時間割作成シート
-2. 学部時間割表
-3. Boxに掲載する電気電子工学科のクラス分け表
-4. シラバス
+2. 電気電子工学科 後期時間割表（<a href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目</a>・<a href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目</a>）
+3. <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表</a>
+4. <a href="{{< var box_file_url >}}" target="_blank" rel="noopener">電気電子工学科のクラス分け表</a>
+5. シラバス
 
-[実籾ガイダンス資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home){.btn .btn-outline-primary target="_blank" rel="noopener"}
+[1年生向け時間割作成用資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
 [学生向けガイダンス資料掲載サイトを開く](https://sites.google.com/view/nucit-guidance/){.btn .btn-outline-secondary target="_blank" rel="noopener"}
 
@@ -31,7 +32,7 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 [履修登録シミュレータを開く](https://shogo-ishikawa.github.io/course-registration-simulator/){.btn .btn-primary target="_blank" rel="noopener"}
 
 ::: {.callout-warning title="シミュレータだけで履修登録は完了しません"}
-このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、Boxのクラス分け表、学部時間割表、シラバス、ポータルで必ず確認してください。
+このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、Boxのクラス分け表、後期時間割表、授業科目表、シラバス、ポータルで必ず確認してください。
 :::
 
 ## 4．履修単位数を確認する

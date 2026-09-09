@@ -202,6 +202,11 @@ h2 {
   background: var(--ee-blue-soft);
 }
 
+.box-links {
+  display: grid;
+  gap: 0.65rem;
+}
+
 .box-panel.compact {
   margin-top: 0.7rem;
 }

@@ -35,7 +35,7 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 この公開サイトには初期パスワードの規則を掲載しません。ログインできない場合は、大学の正規の案内または窓口で確認してください。
 :::
 
-## クラス分け表
+## 時間割表・クラス分け表・授業科目表 {#クラス分け表}
 
 <section class="box-panel compact" aria-labelledby="box-heading-guidance">
 <div>
@@ -47,7 +47,25 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 <a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
 
-Boxのファイルが更新された場合も、同じボタンから最新版を確認できます。
+<section class="box-panel" aria-labelledby="timetable-heading-guidance">
+<div>
+<h3 id="timetable-heading-guidance">電気電子工学科 後期時間割表</h3>
+<p>専門科目と教養基盤科目の両方を確認してください。</p>
+</div>
+<div class="box-links">
+<a class="box-button" data-box-link href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目を開く</a>
+<a class="box-button" data-box-link href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目を開く</a>
+</div>
+</section>
+
+<section class="box-panel" aria-labelledby="course-list-heading-guidance">
+<div>
+<h3 id="course-list-heading-guidance">授業科目表</h3>
+</div>
+<a class="box-button" data-box-link href="{{< var course_list_url >}}" target="_blank" rel="noopener">Boxで授業科目表を開く</a>
+</section>
+
+Boxのファイルが更新された場合も、それぞれのボタンから最新版を確認できます。
 
 ## 履修相談
 
