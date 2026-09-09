@@ -42,7 +42,7 @@ description: "電気電子工学科の開催日時、学生番号別教室、履
 <p class="panel-kicker">Box上のファイルが最新版です</p>
 <h3 id="box-heading-guidance">科目ごとのクラス分け</h3>
 <p>ガイダンス教室の割り当てとは別に、授業科目ごとのクラス分けを確認してください。</p>
-<p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> 更新：{{< var box_file_updated >}}</p>
+<p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> リンク更新：{{< var box_file_updated >}}</p>
 </div>
 <a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
 </section>
