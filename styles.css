@@ -722,26 +722,3 @@ td {
     display: none !important;
   }
 }
-
-/* Course-specific class assignments */
-.class-assignments .box-button {
-  white-space: normal;
-  text-align: center;
-}
-
-.class-assignment-details {
-  grid-column: 1 / -1;
-  min-width: 0;
-}
-
-.class-assignment-details h4 {
-  margin-top: 0;
-}
-
-.class-assignment-details table {
-  margin: 0.75rem 0 1rem;
-}
-
-.class-assignment-details .practice-note {
-  margin-bottom: 0;
-}
