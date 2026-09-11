@@ -66,13 +66,29 @@ toc: false
 
 各資料の最新版は、以下のBoxリンクから確認してください。学籍番号を含む資料は、学内Boxへのログイン後に表示されます。
 
-<section class="box-panel" aria-labelledby="box-heading">
+<section class="box-panel class-assignments" aria-labelledby="box-heading">
 <div>
 <h3 id="box-heading">クラス分け表</h3>
 <p>授業科目ごとのクラス分けを確認してください。</p>
 <p class="update-line"><span class="status-pill">{{< var box_file_status >}}</span> リンク更新：{{< var box_file_updated >}}</p>
 </div>
-<a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">Boxでクラス分け表を開く</a>
+<div class="box-links">
+<a class="box-button" data-box-link href="{{< var box_file_url >}}" target="_blank" rel="noopener">科目別クラス分け表を開く</a>
+<a class="box-button" data-box-link href="{{< var practice_math_class_url >}}" target="_blank" rel="noopener"><span>生産工学実習A・B／電気数学Ⅰ<br>クラス分け表を開く</span></a>
+</div>
+
+<div class="class-assignment-details">
+<h4 id="career-design">キャリアデザインのクラス分け</h4>
+<p>学生番号に対応するクォーターを確認してください。曜日・時限は、どちらのクラスも月曜5限・木曜5限です。</p>
+<table class="table">
+<thead><tr><th scope="col">学生番号</th><th scope="col">開講Q</th><th scope="col">曜日・時限</th></tr></thead>
+<tbody>
+<tr><td><strong>26B21001～26B21088</strong></td><td><strong>3Q</strong></td><td>月曜5限・木曜5限</td></tr>
+<tr><td><strong>26B21089～26B21176</strong></td><td><strong>4Q</strong></td><td>月曜5限・木曜5限</td></tr>
+</tbody>
+</table>
+<p class="practice-note"><strong>生産工学実習A・Bは、両方の履修と矢澤先生への連絡が必要です。</strong> <a href="registration.html#production-practice">履修上の注意を確認する →</a></p>
+</div>
 </section>
 
 <section class="box-panel" aria-labelledby="timetable-heading-home">

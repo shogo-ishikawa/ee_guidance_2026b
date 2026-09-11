@@ -18,8 +18,9 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 1. 時間割作成シート
 2. 電気電子工学科 後期時間割表（<a href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目</a>・<a href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目</a>）
 3. <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表</a>
-4. <a href="{{< var box_file_url >}}" target="_blank" rel="noopener">電気電子工学科のクラス分け表</a>
-5. シラバス
+4. クラス分け表（<a href="{{< var box_file_url >}}" target="_blank" rel="noopener">科目別</a>・<a href="{{< var practice_math_class_url >}}" target="_blank" rel="noopener">生産工学実習A・B／電気数学Ⅰ</a>）
+5. [キャリアデザインのクラス分け](guidance.qmd#career-design)
+6. シラバス
 
 [1年生向け時間割作成用資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
@@ -74,7 +75,7 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 [履修登録シミュレータを開く](https://shogo-ishikawa.github.io/course-registration-simulator/){.btn .btn-primary target="_blank" rel="noopener"}
 
 ::: {.callout-warning title="シミュレータだけで履修登録は完了しません"}
-このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、Boxのクラス分け表、後期時間割表、授業科目表、シラバス、ポータルで必ず確認してください。
+このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、クラス分け表・科目別の案内、後期時間割表、授業科目表、シラバス、ポータルで必ず確認してください。
 :::
 
 ## 5．必修科目から記入する
@@ -83,7 +84,7 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 
 1. 必修科目を先に配置する
 2. 科目名、単位数、キャンパス、教室を書く
-3. クラス分けがある科目は、学生番号に対応する担当教員・開講Q・曜日時限をBoxのクラス分け表と照合する
+3. クラス分けがある科目は、学生番号に対応する担当教員・開講Q・曜日時限を[クラス分け表・科目別の案内](guidance.qmd#クラス分け表)と照合する
 4. その後に選択科目を追加する
 
 微分積分学Ⅰは4Qに再履修できます。ただし、すでに単位を**修得済み**の場合は再履修できず、評価のアップグレード目的の再履修も認められません。
@@ -95,6 +96,18 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 
 [成績評価・再履修の取り扱い（キャンパスガイド25ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index27.html)
 :::
+
+### 生産工学実習A・Bを履修する場合 {#production-practice}
+
+::: {.callout-important title="履修前に確認する3つのこと"}
+1. **AとBの両方を履修してください。** 履修登録でも、片方だけを登録しないようにしてください。
+2. **指定された開講Q・曜日を確認してください。** クラス分け表に自分の学生番号がない場合は、**4Qの月曜日**に履修してください。
+3. **履修を希望する場合は、必ず矢澤先生へ連絡してください。** 連絡先：<a href="mailto:yazawa.syouta@nihon-u.ac.jp">yazawa.syouta@nihon-u.ac.jp</a>
+:::
+
+<a class="btn btn-outline-primary" href="{{< var practice_math_class_url >}}" target="_blank" rel="noopener">生産工学実習A・B／電気数学Ⅰの履修案内・クラス分け表を開く</a>
+
+実習の注意点は、上記資料の1ページに記載されています。電気数学Ⅰのクラス分けも同じ資料で確認できます。
 
 ## 6．ペア時限と重複を確認する
 

@@ -1,11 +1,11 @@
 academic_year: "2026年度"
 site_scope: "電気電子工学科 1年生"
-last_updated: "2026年9月9日"
+last_updated: "2026年9月11日"
 
 # Boxのクラス分け表へのリンク・掲載状態・リンク更新日
 box_file_url: "https://nihon-u.box.com/s/fqwmi5i03m9i7kaspqjy4bt2p197a2bs"
 box_file_status: "掲載中"
-box_file_updated: "2026年9月9日"
+box_file_updated: "2026年9月11日"
 
 # 電気電子工学科の後期時間割表・授業科目表
 timetable_specialized_url: "https://nihon-u.box.com/s/s0znoockj745stb26dd91juu6ukl67fi"
@@ -15,3 +15,6 @@ course_list_url: "https://nihon-u.box.com/s/hoppf2j7ofptmz61av5hoofnzkm4t2yn"
 # 2026年度キャンパスガイド
 campus_guide_url: "https://nihon-u.box.com/s/qghfuvzw5y86v8hzm528m9k59f89wgxg"
 campus_guide_public_url: "https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/"
+
+# 生産工学実習A・B／電気数学Ⅰの履修案内・クラス分け表
+practice_math_class_url: "https://nihon-u.box.com/s/2fdl33i55wkl36mi2p356s0p2iamiien"
