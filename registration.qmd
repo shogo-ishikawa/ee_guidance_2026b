@@ -39,7 +39,7 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 
 **4BE専用科目は、該当プログラムの履修者のみ履修できます。** 対象科目は授業科目表で確認してください。
 
-[上限の規程（27ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index29.html) ／ [「日本を考える」の扱い（51ページ・注3）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index53.html)
+[上限の規程（27ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index29.html) ／ <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">「日本を考える」の扱い（授業科目表の注3）</a>
 
 ::: {.callout-note title="GPAによる上限緩和・その他の例外" collapse="true"}
 判定に用いるのは**直前学期の学期GPA**です。累積GPAではありません。1年生後期には、この緩和は適用されません。
@@ -65,7 +65,7 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 
 卒業研究着手には、3年生終了時点で104単位以上を修得し、卒業要件単位の未修得が24単位以下であることが必要です。年間35単位の修得を一つの目安に、担任と相談しながら学修計画を立ててください。
 
-[電気電子工学科の卒業要件（キャンパスガイド49ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index51.html) ／ [授業科目表の注意事項・「日本を考える」の扱い（51ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index53.html)
+[電気電子工学科の卒業要件（キャンパスガイド49ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index51.html) ／ <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表の注意事項・「日本を考える」の扱い</a>
 :::
 
 ## 4．シミュレータで時間割案を作る
@@ -73,6 +73,10 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 履修登録シミュレータでは、所属学科・学年を選び、科目を時間割へ追加しながら、単位数、時間割の重複、キャンパス間移動を確認できます。
 
 [履修登録シミュレータを開く](https://shogo-ishikawa.github.io/course-registration-simulator/){.btn .btn-primary target="_blank" rel="noopener"}
+
+<a class="btn btn-outline-secondary" href="{{< var model_timetable_url >}}" target="_blank" rel="noopener">後期モデル時間割（Excel）をBoxで開く</a>
+
+モデル時間割は、科目の配置例を確認するための参考資料です。自分のクラス分けと前期の修得状況に合わせて、時間割案を作成してください。
 
 ::: {.callout-warning title="シミュレータだけで履修登録は完了しません"}
 このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、クラス分け表・科目別の案内、後期時間割表、授業科目表、シラバス、ポータルで必ず確認してください。
@@ -85,7 +89,7 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 
 前期の必修科目に未修得の科目がある方は、再履修が必要な科目も確認してください。必修科目を配置した後、[履修上限（原則20単位）](#cap-limit)の範囲で選択科目を追加します。
 
-**微分積分学Ⅰは必修、微分積分学Ⅱは選択科目です。**[必修・選択の区分（授業科目表50ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index52.html)
+**微分積分学Ⅰは必修、微分積分学Ⅱは選択科目です。** <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">必修・選択の区分（授業科目表）</a>
 :::
 
 **1年次の必修科目を優先してください。** 原則として、在籍年次より高学年に設置された科目は履修できません。[設置年次・履修の規程（キャンパスガイド22ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index24.html)
