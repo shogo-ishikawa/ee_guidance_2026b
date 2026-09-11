@@ -43,6 +43,7 @@ format:
     css:
       - styles.css
       - course-classes.css
+      - readability.css
     toc: true
     toc-title: "このページ"
     toc-depth: 2
@@ -52,6 +53,7 @@ format:
     include-after-body:
       - includes/box-link.html
       - includes/site-transfer.html
+      - includes/details-navigation.html
     grid:
       sidebar-width: 220px
       body-width: 900px

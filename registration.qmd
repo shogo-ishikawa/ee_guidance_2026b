@@ -7,6 +7,15 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 **9月10日（木）–16日（水）**に、ポータルシステムから**3Q・4Q・後期科目をすべて登録**してください。
 :::
 
+<nav class="page-shortcuts" aria-label="履修登録の確認項目へ移動">
+<a href="#required-courses">必修科目</a>
+<a href="#elective-examples">選択科目</a>
+<a href="#timetable-builder">時間割を作る</a>
+<a href="#cap-limit">20単位上限</a>
+<a href="#registration-check">登録・最終確認</a>
+<a href="#定員超過時の流れ">定員超過・履修修正</a>
+</nav>
+
 ## 1．前期の成績を確認する
 
 [ポータルシステムを開く](https://portal.cit.nihon-u.ac.jp/){.btn .btn-primary target="_blank" rel="noopener"}
@@ -15,20 +24,26 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 
 ## 2．時間割作成に必要な資料を揃える
 
-1. 時間割作成シート
-2. 電気電子工学科 後期時間割表（<a href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目</a>・<a href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目</a>）
-3. <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表</a>
-4. クラス分け表（<a href="{{< var box_file_url >}}" target="_blank" rel="noopener">科目別</a>・<a href="{{< var practice_math_class_url >}}" target="_blank" rel="noopener">生産工学実習A・B／電気数学Ⅰ</a>）
-5. [キャリアデザインのクラス分け](guidance.qmd#career-design)
-6. シラバス
+- **開講日時・教室**：<a href="{{< var timetable_specialized_url >}}" target="_blank" rel="noopener">専門科目の後期時間割表</a> ／ <a href="{{< var timetable_general_url >}}" target="_blank" rel="noopener">教養基盤科目の後期時間割表</a>
+- **必修・選択の区分と単位数**：<a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表</a>
+- **自分のクラス**：<a href="{{< var box_file_url >}}" target="_blank" rel="noopener">科目別クラス分け表</a> ／ <a href="{{< var practice_math_class_url >}}" target="_blank" rel="noopener">実習A・B／電気数学Ⅰ</a> ／ [キャリアデザイン](index.qmd#career-design)
 
-[1年生向け時間割作成用資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home){.btn .btn-outline-primary target="_blank" rel="noopener"}
+<details class="info-details">
+<summary>時間割作成シート・シラバスなどの確認先</summary>
 
-[学生向けガイダンス資料掲載サイトを開く](https://sites.google.com/view/nucit-guidance/){.btn .btn-outline-secondary target="_blank" rel="noopener"}
+時間割作成シートとシラバスも用意してください。配布資料や確認先は、以下の大学の資料掲載サイトで確認できます。
+
+- [1年生向け時間割作成用資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home)
+- [学生向けガイダンス資料掲載サイトを開く](https://sites.google.com/view/nucit-guidance/)
+
+</details>
 
 ## 3．履修単位数を確認する {#cap-limit}
 
 **1年生の後期の履修登録上限は、原則20単位です。** 前期と後期の上限は独立して数えます。GPAによる上限緩和の対象は**2年次以降**です。
+
+<details class="info-details">
+<summary>上限への算入・4BE科目などの特別な取り扱い</summary>
 
 | 取り扱い | 20単位上限への算入 |
 |---|---|
@@ -40,6 +55,8 @@ description: "20単位上限、ペア時限、キャンパス間移動、定員�
 **4BE専用科目は、該当プログラムの履修者のみ履修できます。** 対象科目は授業科目表で確認してください。
 
 [上限の規程（27ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index29.html) ／ <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">「日本を考える」の扱い（授業科目表の注3）</a>
+
+</details>
 
 ::: {.callout-note title="GPAによる上限緩和・その他の例外" collapse="true"}
 判定に用いるのは**直前学期の学期GPA**です。累積GPAではありません。1年生後期には、この緩和は適用されません。
@@ -68,7 +85,9 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 [電気電子工学科の卒業要件（キャンパスガイド49ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index51.html) ／ <a href="{{< var course_list_url >}}" target="_blank" rel="noopener">授業科目表の注意事項・「日本を考える」の扱い</a>
 :::
 
-## 4．シミュレータで時間割案を作る
+## 4．シミュレータで時間割案を作る {#timetable-builder}
+
+<span id="シミュレータで時間割案を作る"></span>
 
 履修登録シミュレータでは、所属学科・学年を選び、科目を時間割へ追加しながら、単位数、時間割の重複、キャンパス間移動を確認できます。
 
@@ -82,7 +101,9 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 このシミュレータは時間割案を作るための補助ツールで、ポータルへの履修登録は行いません。クラス指定・履修条件・最新の開講情報は、クラス分け表・科目別の案内、後期時間割表、授業科目表、シラバス、ポータルで必ず確認してください。
 :::
 
-## 5．必修科目から記入する
+## 5．必修科目から記入する {#required-courses}
+
+<span id="必修科目から記入する"></span>
 
 ::: {.callout-important title="後期の必修科目（通常9単位）"}
 **次の必修科目を、先に時間割へ入れてください。**
@@ -96,31 +117,26 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 | キャリアデザイン | 2 | 学生番号で指定された3Qまたは4Q |
 | **合計** | **9** | 微分積分学Ⅰの再履修分（2単位）は別途 |
 
-**前期に微分積分学Ⅰを未修得の場合は、4Qに再履修できます（2単位）。** 必修科目を配置した後、[履修上限（原則20単位）](#cap-limit)の範囲で選択科目を追加します。
+必修科目を配置した後、[履修上限（原則20単位）](#cap-limit)の範囲で選択科目を追加します。
 
-<a href="{{< var course_list_url >}}" target="_blank" rel="noopener">必修・選択の区分と単位数（授業科目表）</a> ／ [科目別のクラス分け・キャリアデザインの指定](guidance.qmd#クラス分け表)
+<a href="{{< var course_list_url >}}" target="_blank" rel="noopener">必修・選択の区分と単位数（授業科目表）</a> ／ [科目別のクラス分け・キャリアデザインの指定](index.qmd#box-file)
 :::
 
-**1年次の必修科目を優先してください。** 原則として、在籍年次より高学年に設置された科目は履修できません。[設置年次・履修の規程（キャンパスガイド22ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index24.html)
+科目名・単位数・キャンパス・教室に加え、担当教員と開講Q・曜日時限を[クラス分け表](index.qmd#box-file)と照合してください。
 
-1. 必修科目を先に配置する
-2. 科目名、単位数、キャンパス、教室を書く
-3. クラス分けがある科目は、学生番号に対応する担当教員・開講Q・曜日時限を[クラス分け表・科目別の案内](guidance.qmd#クラス分け表)と照合する
-4. その後に選択科目を追加する
+<details class="info-details">
+<summary>履修できる学年・修得済み科目の再履修について</summary>
 
-微分積分学Ⅰは4Qに再履修できます。ただし、すでに単位を**修得済み**の場合は再履修できず、評価のアップグレード目的の再履修も認められません。
+- **1年次の必修科目を優先してください。** 原則として、在籍年次より高学年に設置された科目は履修できません。
+- **一度合格した科目は再履修できません。** 成績を上げる目的の再履修も認められません。
 
-::: {.callout-note title="クラス分け・選択科目を確認するとき" collapse="true"}
-- 微分積分学Ⅱ・英語Ⅱ・工学基盤実験A/B・科学基礎実験A/Bなどは、科目ごとに指定されたクラスを確認してください。
-- 選択科目は、空いている曜日・時限を探し、開講Q・曜日時限・シラバス・履修制限を確認してから追加してください。
-- 一度合格した科目は、成績を上げる目的で再履修できません。
+[設置年次・履修の規程（キャンパスガイド22ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index24.html) ／ [成績評価・再履修の取り扱い（25ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index27.html)
 
-[成績評価・再履修の取り扱い（キャンパスガイド25ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index27.html)
-:::
+</details>
 
 ### 選択科目の例と探し方 {#elective-examples}
 
-- **微分積分学Ⅰは前期の必修、微分積分学Ⅱは選択科目です。** Ⅰを前期に未修得の場合は、4Qに再履修できます。
+- **微分積分学Ⅰは前期の必修、微分積分学Ⅱは選択科目です。** Ⅰを前期に未修得の場合は、4Qに再履修できます（2単位）。
 - **物理学Ⅰは前期の必修、物理学Ⅱは後期の選択科目です。** 物理学Ⅰは後期に再履修できません。
 
 以下は、必修・選択の区分を確認しておきたい科目の例です。
@@ -160,19 +176,25 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 時間割表に2つの曜日・時限が記載されている場合は、両方を時間割作成シートへ記入してください。ペアの片方だけでも別科目と重なる場合、その組み合わせは履修できません。
 :::
 
+<details class="info-details">
+<summary>ペア時限・重複の具体例を見る</summary>
+
 | 組み合わせ | 判定 |
 |---|---|
 | ペア時限の両方が空いている | **登録可能** |
 | ペア時限の片方が必修科目と重なる | **登録不可** |
 | 選択科目同士が一部でも重なる | **どちらか一方のみ** |
 
-::: {.callout-note title="ペア時限の具体例と例外" collapse="true"}
 「月曜2限・木曜1限」のように曜日が分かれる場合も、「金曜4限・5限」のように同日の連続時限になる場合も、指定された時限をすべて時間割に入れます。一部の講義科目や通年科目など、週1回の授業もあるため、実際の時間割表で確認してください。
-:::
+
+</details>
 
 ## 7．キャンパス間移動を確認する
 
-津田沼キャンパスと実籾キャンパスで開講される科目を、連続した時限に配置することはできません。
+**津田沼と実籾の移動には、間に1時限分の空きが必要です。** 連続した時限の配置や、昼休みだけでの移動は認められません。
+
+<details class="info-details">
+<summary>移動できる組み合わせ・教職課程などの相談先</summary>
 
 | 例 | 判定 | 理由 |
 |---|---|---|
@@ -181,6 +203,8 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 | 1限が実籾、3限が津田沼 | **可能** | 間に1時限分の空きがある |
 
 教職課程などでやむを得ず移動が必要な場合は、[自分の1年担任](index.qmd#homeroom-teachers)と授業担当者へ相談してください。
+
+</details>
 
 ## 8．登録内容を最終確認する {#registration-check}
 
@@ -196,6 +220,8 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 
 登録漏れや誤登録のまま受講・受験しても、単位は修得できません。誤りがあれば登録・修正期間内に直し、期間を過ぎて気付いた場合は、速やかに[自分の1年担任](index.qmd#homeroom-teachers)へ相談してください。
 
+[ポータルで履修登録・My時間割を確認する](https://portal.cit.nihon-u.ac.jp/){.btn .btn-primary target="_blank" rel="noopener"}
+
 [登録完了の確認方法（キャンパスガイド27ページ）](https://www.cit.nihon-u.ac.jp/educational-information/campusguide2026/pageindices/index29.html)
 
 ## 定員超過時の流れ
@@ -209,6 +235,9 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
   <li><strong>定員超過の対象になった</strong><span>大学からの案内に従い、移動または調整を行う</span></li>
 </ol>
 
+<details class="info-details">
+<summary>定員超過の対象になった方：変更方法・代替案を確認する</summary>
+
 ### 定員超過の対象になった場合
 
 - **自主的に別の時間割へ変更する場合**：変更先の追加登録可能人数を確認し、履修修正期間に登録を修正してください。変更後の科目には第1回授業から出席します。
@@ -219,6 +248,8 @@ GPAによる緩和とは別に、上限算入の例外として、生産実習�
 - 同じクォーターの別曜日・別時限にある同名科目を選ぶ
 - 第2希望の科目を先に履修し、第1希望を別のクォーターで履修する
 - 第1希望を別学年で履修し、今回は第2希望を履修する
+
+</details>
 
 ## 履修修正期間
 

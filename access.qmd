@@ -14,12 +14,16 @@ toc: false
 
 <section class="pc-transfer" data-site-transfer aria-labelledby="pc-transfer-title">
 <h2 id="pc-transfer-title">PCで開く</h2>
-<p>QRコードを読み取ってサイトを開くと、スマートフォンの画面上部にも同じ操作が表示されます。「PCへ送る・共有する」を押し、端末の共有画面から送信方法を選んでください。</p>
+<p>スマートフォンで「PCへ送る・共有する」を押してURLを送り、<strong>PCで受け取ったリンクを開いてください。</strong></p>
 <div class="transfer-actions">
 <button class="transfer-button transfer-primary" type="button" data-share-site>PCへ送る・共有する</button>
 <button class="transfer-button transfer-secondary" type="button" data-copy-site-url>URLをコピー</button>
 </div>
-<p class="transfer-help"><strong>送信方法の例：</strong>Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メール</p>
+<details class="info-details">
+<summary>送信方法の例・共有できない場合</summary>
+<p>Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メールなどを利用できます。共有できない場合は「URLをコピー」で、自分宛メールやチャットに貼り付けてください。</p>
+<p>QRコードから開くトップページでは、「PCでも開く」を展開すると同じ操作を利用できます。</p>
+</details>
 <p class="transfer-status" data-transfer-status role="status" aria-live="polite"></p>
 </section>
 </section>

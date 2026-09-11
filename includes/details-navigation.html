@@ -1,0 +1,33 @@
+<script>
+(() => {
+  function revealLinkedDetails() {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = id && document.getElementById(id);
+    if (!target) return;
+    let changed = false;
+    for (let element = target; element; element = element.parentElement) {
+      if (element.tagName === "DETAILS" && !element.open) {
+        element.open = true;
+        changed = true;
+      }
+    }
+    if (changed) requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
+  }
+  window.addEventListener("hashchange", revealLinkedDetails);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", revealLinkedDetails);
+  } else {
+    revealLinkedDetails();
+  }
+  let openedForPrint = [];
+  window.addEventListener("beforeprint", () => {
+    openedForPrint = [...document.querySelectorAll("details:not([open])")];
+    openedForPrint.forEach(element => { element.open = true; });
+  });
+  window.addEventListener("afterprint", () => {
+    openedForPrint.forEach(element => { element.open = false; });
+    openedForPrint = [];
+  });
+})();
+</script>

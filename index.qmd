@@ -11,7 +11,7 @@ toc: false
 <header class="guidance-hero">
   <p class="eyebrow">2026年度・電気電子工学科1年生用</p>
   <h1>3Q・4Q 履修ガイダンス</h1>
-  <p class="hero-lead">日程、教室、履修登録のルール、教科書販売を、学生が行動する順にまとめています。</p>
+  <p class="hero-lead"><strong>9月16日（水）までに、3Q・4Q・後期科目をポータルで履修登録してください。</strong></p>
   <div class="hero-meta"><span>教科ガイダンス：9月14日（月）10:00–12:00</span><span>実籾キャンパス 2号館</span></div>
 </header>
 
@@ -22,8 +22,22 @@ toc: false
 - **207教室**：学生番号 26B21089 - 26B21176
 :::
 
-<section class="pc-transfer pc-transfer-mobile" data-site-transfer aria-labelledby="mobile-transfer-title">
-<h2 id="mobile-transfer-title">PCでも開く</h2>
+<nav class="quick-actions" aria-label="履修登録の入口">
+<a href="#box-file">1．資料・クラス分けを開く</a>
+<a href="https://shogo-ishikawa.github.io/course-registration-simulator/" target="_blank" rel="noopener">2．シミュレータで時間割を作る</a>
+<a href="https://portal.cit.nihon-u.ac.jp/" target="_blank" rel="noopener">3．ポータルで登録する</a>
+</nav>
+
+<nav class="page-shortcuts" aria-label="知りたい情報へ移動">
+<a href="#重要な日程">日程</a>
+<a href="registration.html#required-courses">必修・選択科目</a>
+<a href="textbooks.html">教科書</a>
+<a href="#homeroom-teachers">担任・問い合わせ</a>
+</nav>
+
+<details class="pc-transfer pc-transfer-mobile">
+<summary>PCでも開く（URLの共有・コピー）</summary>
+<div data-site-transfer>
 <p>PCで時間割を作成する場合は、下のボタンからこのサイトをPCへ送ってください。</p>
 <div class="transfer-actions">
 <button class="transfer-button transfer-primary" type="button" data-share-site>PCへ送る・共有する</button>
@@ -31,7 +45,8 @@ toc: false
 </div>
 <p class="transfer-help">Chromeの「デバイスに送信」、AirDrop、Quick Share、自分宛メールなどを利用できます。</p>
 <p class="transfer-status" data-transfer-status role="status" aria-live="polite"></p>
-</section>
+</div>
+</details>
 
 ## 重要な日程
 
@@ -109,7 +124,11 @@ toc: false
 <a class="box-button" data-box-link href="{{< var course_list_url >}}" target="_blank" rel="noopener">Boxで授業科目表を開く</a>
 </section>
 
-::: {.callout-note title="詳しい履修規程・キャンパスガイド" collapse="true"}
+<a href="{{< var model_timetable_url >}}" target="_blank" rel="noopener">後期モデル時間割（Excel）をBoxで開く</a>
+
+::: {.callout-note title="その他の時間割作成用資料・詳しい履修規程" collapse="true"}
+- [1年生向け時間割作成用資料掲載サイトを開く](https://sites.google.com/view/mimomi-guidance/home)
+
 履修条件・成績評価・卒業要件の詳細は、2026年度キャンパスガイドで確認できます。
 
 - <a href="{{< var campus_guide_public_url >}}" target="_blank" rel="noopener">大学公式デジタル版を開く</a>
@@ -118,19 +137,11 @@ toc: false
 
 ## ガイダンス当日から登録まで
 
-1. ポータルで前期（1Q・2Q）の成績を確認する
-2. Boxの[クラス分け表・後期時間割表・授業科目表](#box-file)を開く
-3. 時間割作成シートまたは履修登録シミュレータで、必修科目から時間割案を作る
-4. 選択科目を追加し、単位数・重複・キャンパス移動を確認する
-5. **9月16日（水）までに、3Q・4Q・後期科目をすべて登録する**
-6. ポータルの[「My時間割」で登録結果を確認する](registration.qmd#registration-check)
+1. ポータルで前期の成績を確認し、[資料とクラス分け](#box-file)を揃える
+2. [必修科目から時間割案を作り](registration.qmd#required-courses)、選択科目を追加する。20単位上限・重複・キャンパス移動を確認する
+3. **9月16日（水）までに3Q・4Q・後期科目をポータルで登録し、[「My時間割」で登録結果を確認する](registration.qmd#registration-check)**
 
-<div class="action-grid">
-<article><a class="action-card" href="https://portal.cit.nihon-u.ac.jp/" target="_blank" rel="noopener"><span class="action-label">成績・履修登録</span><strong>ポータルシステム</strong><span>大学のログイン画面を開く →</span></a></article>
-<article><a class="action-card" href="https://shogo-ishikawa.github.io/course-registration-simulator/" target="_blank" rel="noopener"><span class="action-label">時間割案の作成</span><strong>履修登録シミュレータ</strong><span>単位数・重複・キャンパス移動を確認する →</span></a></article>
-<article><a class="action-card" href="https://sites.google.com/view/mimomi-guidance/home" target="_blank" rel="noopener"><span class="action-label">時間割・配布資料</span><strong>時間割作成用資料</strong><span>1年生向け時間割作成用資料掲載サイトを開く →</span></a></article>
-<article><a class="action-card" href="registration.html"><span class="action-label">時間割を作る前に</span><strong>履修ルール</strong><span>20単位上限・ペア時限・移動ルール →</span></a></article>
-</div>
+[履修登録と時間割の作り方を確認する](registration.qmd){.btn .btn-outline-primary}
 
 ::: {.callout-note title="登録期間・修正期間を含む日程一覧" collapse="true"}
 
