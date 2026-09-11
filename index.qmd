@@ -155,12 +155,12 @@ toc: false
 
 | 学生番号の下3桁（26B21で始まる方） | 1年担任・メール |
 |---|---|
-| **001–045** | 大坂 直樹<br><a href="mailto:osaka.naoki@nihon-u.ac.jp">osaka.naoki</a> |
-| **046–088** | 石川 将吾<br><a href="mailto:ishikawa.shogo@nihon-u.ac.jp">ishikawa.shogo</a> |
-| **089–130** | 森 健太郎<br><a href="mailto:mori.kentarou@nihon-u.ac.jp">mori.kentarou</a> |
-| **131以降、およびその他** | 三浦 慎一郎<br><a href="mailto:miura.shinichirou@nihon-u.ac.jp">miura.shinichirou</a> |
+| **001–045** | 大坂 直樹<br>osaka.naoki |
+| **046–088** | 石川 将吾<br>ishikawa.shogo |
+| **089–130** | 森 健太郎<br>mori.kentarou |
+| **131以降、およびその他** | 三浦 慎一郎<br>miura.shinichirou |
 
-氏名の下はメールアドレスの「@以前」です。共通のドメインは **@nihon-u.ac.jp** で、リンクからメールを作成できます。
+氏名の下はメールアドレスの「@以前」です。共通のドメインは **@nihon-u.ac.jp** です。
 
 ### 履修に関する問い合わせ
 
